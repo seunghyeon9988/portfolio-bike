@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>셀링바이크 리뉴얼</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+<script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+    $('#open_btn').click(function(){
+        $('#main_nav').css({
+        display: 'block',
+        });
+    });
+
+    $('#close_btn').click(function(){
+        $('#main_nav').css({
+        display: 'none',
+        });
+    });
+
+    });
+
+    
+</script>
+
+<body>
+
+    <div class="wrap">
+
+        <header>
+
+            <div id="logo"><a href="#"><img src="img/LOGO.png" alt="로고"></a></div>
+            <nav class="navber">
+
+                <ul class="navber_menu">
+                    <li><a href="#">자전거</a></li>
+                    <li><a href="#">용품</a></li>
+                    <li><a href="#">고객서비스</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                    <li><a href="#">주문배송조회</a></li>
+                </ul>
+
+                <div class="navber_side">
+                    <div id="search">
+                        <input type="text"name="[##_search_name_##]" value="" placeholder="  BRAND">                       
+                    </div>
+                    <button type="button"><img src="img/search_button.png" alt="검색버튼"></button>
+                    
+                    <div class="btn" id="open_btn"><img src="img/Icon feather-menu.png" alt="="></div>
+                    
+                        <nav id="main_nav">
+                            <ul id="br_menu">
+                                <li id="header">
+                                    <div id="logo"><img src="img/LOGO.png" alt=""></a></div>
+                                    <div class="btn" id="close_btn"><img src="img/icons8.png" alt="x"></div>
+                                </li>
+                                
+                                <ul ><a href="#" id="open_li"><span>브랜드</span> <img src="img/Icon material-expand-more.png" alt="브랜드 메뉴"> </a>
+                                    <li class="sub">일번</li>
+                                </ul>
+                                
+                                <ul><a href="#" id="open_li"><span>자전거</span> <img src="img/Icon material-expand-more.png" alt="자전거 메뉴"> </a>
+                                    <li class="sub">이번</li>
+                                </ul>
+                                
+                                <ul><a href="#" id="open_li"><span>자전거 용품</span><img src="img/Icon material-expand-more.png" alt="자전거 용품 메뉴"> </a>
+                                    <li class="sub">삼번</li>
+                                </ul>
+                                
+                                <ul><a href="#" id="open_li"><span>고객서비스</span><img src="img/Icon material-expand-more.png" alt="고객서비스 메뉴"> </a>
+                                    <li class="sub">사번</li>
+                                </ul>
+                                
+                                <li><a href="#" id="open_li"><span>대리점 찾기</span><img src="img/Icon material-expand-more.png" alt="대리점 찾기 메뉴"> </a></li>
+                                
+                                
+                                <div id="sv_footer">
+                                    <div id="left">
+                                        <div class="title">CUSTOMER CENTER.</div>
+                                            <div id="text">
+                                                <div><p><span id="p1">
+                                                    (on) 031-768-4482 <br/>
+                                                    (off) 031-233-1818 
+                                                </span><br/>
+                                                <span id="p2">AM10:30 - PM05:00 (on)<br/>
+                                                AM11:00 - PM07:00 (off)</span><br/>
+                                                <span id="p3"> (토, 일, 공휴일 휴무)on<br/>
+                                                off (일요일 휴무)</span>
+                                                </p></div>
+                                            </div>
+                                    </div>
+                
+                                    <div id="center">
+                                        <ul id="cen_1">
+                                            <li><a href="">공지사항</a></li>
+                                            <li><a href="">문의게시판</a></li>
+                                            <li><a href="">포토리뷰/후기</a></li>
+                                        </ul>
+                                        <ul id="cen_2">
+                                            <li><a href="">개인결제창</a></li>
+                                            <li><a href="">등급별혜택</a></li>
+                                            <li><a href="">이벤트</a></li>
+                                        </ul>
+                                    </div>
+                
+                                    <div id="right">
+                                        <div id="rcon_1">
+                                            <div class="title">SNS</div>
+                                            <div id="icon">
+                                            <a href="#"><img src="img/패스 2.png" alt="face"></a>
+                                            <a href="#"><img src="img/ins.png" alt="ins"></a>
+                                            </div>
+                                        </div>
+                
+                                        <div id="rcon_2">
+                                            <div class="title">RETURN ADDRESS.</div>
+                                            <div id="text">경기도 수원시 권선구 경수대로 353 1층 "바이크셀링"<br/>
+                                                / 반품시 경동택배 (080-873-2178) 자전거</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </nav>
+                    
+                    
+
+                </div>
+            </nav>
+                
+            
+        </header> 
+
+        
+        <section id="section_1" ></section>
+
+        <!-- section_1 end -->
+
+        <section id="section_2">
+            <div id="title">CHOOSE YOUR STYLE</div>
+            <div id="container">
+                <ul id="con_1">
+                    <li class="cn"><a href="#"><img src="img/fixed.png" alt=""><p>FIXED</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/HYBRID.png" alt=""> <p>HYBRID</p> </a></li>
+                    <li class="cn"><a href="#"><img src="img/ROAD.png" alt=""><p>ROAD</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/MTB.png" alt=""><p>MTB</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/CLASSIC.png" alt=""><p>CLASSIC</p></a></li>
+                </ul>
+
+                <ul id="con_2">
+                    <li class="cn"><a href="#"><img src="img/FATBIKE.png" alt=""><p>FATBIKE</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/KIDS.png" alt=""><p>KIDS</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/MINI.png" alt=""><p>MINI</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/E-BIKE.png" alt=""><p>E-BIKE</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/ACC.png" alt=""><p>ACC</p></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section_2mm">
+            <div id="title">CHOOSE YOUR STYLE</div>
+            <div id="container">
+
+                <ul id="con_1">
+                    <li class="cn"><a href="#"><img src="img/fixed.png" alt=""><p>FIXED</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/HYBRID.png" alt=""> <p>HYBRID</p> </a></li>
+                
+                </ul>
+
+                <ul id="con_2">
+                    <li class="cn"><a href="#"><img src="img/ROAD.png" alt=""><p>ROAD</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/MTB.png" alt=""><p>MTB</p></a></li>
+                    
+                </ul>
+
+                <ul id="con_3">
+                    <li class="cn"><a href="#"><img src="img/CLASSIC.png" alt=""><p>CLASSIC</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/FATBIKE.png" alt=""><p>FATBIKE</p></a></li>
+                    
+                </ul>
+
+                <ul id="con_4">
+                    <li class="cn"><a href="#"><img src="img/KIDS.png" alt=""><p>KIDS</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/MINI.png" alt=""><p>MINI</p></a></li>
+                    
+                </ul>
+
+                <ul id="con_5">
+                    <li class="cn"><a href="#"><img src="img/E-BIKE.png" alt=""><p>E-BIKE</p></a></li>
+                    <li class="cn"><a href="#"><img src="img/ACC.png" alt=""><p>ACC</p></a></li>
+                </ul>
+            </div>
+        </section>
+
+        
+
+        <!-- section_2 end -->
+
+        <section id="section_3">
+            <div id="container_2">
+                <div id="title">BEST 6</div>
+                <div id="con_1">
+                    
+                    <div id="c1"><a href="#"><img src="img/con__3_1.png" alt="best1"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">3,990,000</span> <span class="red">2,390,000 원</span></p>
+                    </div>
+                
+                    <div id="c2"><a href="#"><img src="img/con_3_2.png" alt="best2"></a>
+                        <p class="cp1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="cp2">자전거도로 주행이 가능한 500w 버전</p>
+                        <p><span id="c2_3">1,650,000 원</span></p>
+                    </div>
+                
+                    <div id="c3"><a href="#"><img src="img/con_3_3.png" alt="best3"></a>
+                        <p class="cp1">트위터 EM10 XT 12단 36V20A 전기자전거</p>
+                        <p class="cp2">강력한 바팡 모터가 장착된 풀샥 카본MTB 전기자전거</p>
+                        <p><span class="st">5,690,000</span> <span class="red">4,690,000 원</span></p>
+                    </div>
+                </div>
+
+                <div id="con_2">
+
+                    <div id="c4"><a href="#"><img src="img/con_3_4.png" alt="best4"></a>
+                        <p class="cp1">트위터 EM5 M6100 12단 16A 전기자전거</p>
+                        <p class="cp2">시마노 데오레 12단과 16A 고용량배터리 적용 모델</p>
+                        <p><span class="st">3,590,000</span> <span class="red">2,990,000원</span></p>
+                    </div>
+
+                    <div id="c5"><a href="#"><img src="img/con_3_5.png" alt="best5"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">2,190,000</span> <span class="red">1,990,000원</span></p>
+                    </div>
+
+                    <div id="c6"><a href="#"><img src="img/con_3_6.png" alt="best6"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">2,190,000</span> <span class="red">1,990,000원</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section_3mm">
+            <div id="container_2">
+                <div id="title">BEST 6</div>
+                <div id="con_1">
+                    
+                    <div id="c1"><a href="#"><img src="img/con__3_1.png" alt="best1"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">3,990,000</span> <span class="red">2,390,000 원</span></p>
+                    </div>
+                
+                    <div id="c2"><a href="#"><img src="img/con_3_2.png" alt="best2"></a>
+                        <p class="cp1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="cp2">자전거도로 주행이 가능한 500w 버전</p>
+                        <p><span id="c2_3">1,650,000 원</span></p>
+                    </div>
+                
+                    
+                </div>
+
+                <div id="con_2">
+
+                    <div id="c3"><a href="#"><img src="img/con_3_3.png" alt="best3"></a>
+                        <p class="cp1">트위터 EM10 XT 12단 36V20A 전기자전거</p>
+                        <p class="cp2">강력한 바팡 모터가 장착된 풀샥 카본MTB 전기자전거</p>
+                        <p><span class="st">5,690,000</span> <span class="red">4,690,000 원</span></p>
+                    </div>
+
+                    <div id="c4"><a href="#"><img src="img/con_3_4.png" alt="best4"></a>
+                        <p class="cp1">트위터 EM5 M6100 12단 16A 전기자전거</p>
+                        <p class="cp2">시마노 데오레 12단과 16A 고용량배터리 적용 모델</p>
+                        <p><span class="st">3,590,000</span> <span class="red">2,990,000원</span></p>
+                    </div>
+
+                    
+
+                </div>
+
+                <div id="con_3">
+
+                    <div id="c5"><a href="#"><img src="img/con_3_5.png" alt="best5"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">2,190,000</span> <span class="red">1,990,000원</span></p>
+                    </div>
+
+                    <div id="c6"><a href="#"><img src="img/con_3_6.png" alt="best6"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">2,190,000</span> <span class="red">1,990,000원</span></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section_3mb">
+            <div id="container_2">
+                <div id="title">BEST 3</div>
+                <div id="con_1">
+                    
+                    <div id="c1"><a href="#"><img src="img/con__3_1.png" alt="best1"></a>
+                        <p class="cp1">엑스라이더 X100 X200 X200T 프로 전기자전거</p>
+                        <p class="cp2">3차 입고 예약중!!</p>
+                        <p><span class="st">3,990,000</span> <span class="red">2,390,000 원</span></p>
+                    </div>
+                
+                    <div id="c2"><a href="#"><img src="img/con_3_2.png" alt="best2"></a>
+                        <p class="cp1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="cp2">자전거도로 주행이 가능한 500w 버전</p>
+                        <p><span id="c2_3">1,650,000 원</span></p>
+                    </div>
+
+                    <div id="c3"><a href="#"><img src="img/con_3_3.png" alt="best3"></a>
+                        <p class="cp1">트위터 EM10 XT 12단 36V20A 전기자전거</p>
+                        <p class="cp2">강력한 바팡 모터가 장착된 풀샥 카본MTB 전기자전거</p>
+                        <p><span class="st">5,690,000</span> <span class="red">4,690,000 원</span></p>
+                    </div>
+                
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section_3 end -->
+
+        <section id="section_4">
+            <div id="container_3">
+                <div id="title">포토리뷰</div>
+
+                <div id="con_1">
+
+                    <div class="rv"><a href="#"><img src="img/rv_1.png" alt="rv1"></a>
+                        <p class="rvt_1">바이큰 하이브리드T 21단 로드자전거</p>
+                        <p class="rvt_2">색이 너무 예쁘네요! 받아서 뜯자마자 색깔보고ㅠ<br/>
+                        입틀막 주행도 잘되고 가벼워요 자전거 탈일이..</p>
+                     </div>
+
+                    <div class="rv"><a href="#"><img src="img/rv_2.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="rvt_2">자전거 안장이 불편해서 고른디자인 입니다. 승차감도<br/> 
+                             좋고 디자인도 넘이쁘고 색상선택도 잘한거 같아요 ~ </p>
+                    </div>    
+
+                    <div class="rv"><a href="#"><img src="img/rv_3.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 알톤 알시티 엔도24 유압식 하이브리드</p>
+                        <p class="rvt_2">택배가 주말에 도착할줄 알았는데 월요일 퇴근후<br/> 
+                            귀가 하니 도착해 있네요. MTB 랑 팻바이크를 타...</p>
+                    </div> 
+
+                </div>
+
+                <div id="con_2">
+
+                    <div class="rv"><a href="#"><img src="img/rv_4.png" alt="rv1"></a>
+                        <p class="rvt_1">2022 벨로라인 클라우드 하이브리드</p>
+                        <p class="rvt_2">아들이 두발 자전거 시작해서 같이 탈려고<br/>
+                            구매 했는데, 이쁘고 가볍네요! 하이브리드..</p>
+                    </div>  
+
+                    <div class="rv"><a href="#"><img src="img/rv_5.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 퀄리 Q맥스 리미티드 퍼포먼스 전기자전거</p>
+                        <p class="rvt_2">출퇴근 목적으로 구매 했습니다. 왕복 10KM 거리<br/>
+                            인데 출근 할 때에는 PAS 기능으로 경쾌한 페달링...  </p>
+                    </div>
+
+                    <div class="rv"><a href="#"><img src="img/rv_6.png" alt="rv1"></a>
+                        <p class="rvt_1">모토벨로 TX8 프로3 500W 20인치 전기자전거</p>
+                        <p class="rvt_2">친절한분들께 설명 잘듣고 구매했습니다 생각한<br/>
+                            것보다도 등판력이 좋아서 등판력고민을 왜했나...</p>
+                    </div>  
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section_4mm">
+            <div id="container_3">
+                <div id="title">포토리뷰</div>
+
+                <div id="con_1">
+
+                    <div class="rv"><a href="#"><img src="img/rv_1.png" alt="rv1"></a>
+                        <p class="rvt_1">바이큰 하이브리드T 21단 로드자전거</p>
+                        <p class="rvt_2">색이 너무 예쁘네요! 받아서 뜯자마자 색깔보고ㅠ<br/>
+                        입틀막 주행도 잘되고 가벼워요 자전거 탈일이..</p>
+                     </div>
+
+                    <div class="rv"><a href="#"><img src="img/rv_2.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="rvt_2">자전거 안장이 불편해서 고른디자인 입니다. 승차감도<br/> 
+                             좋고 디자인도 넘이쁘고 색상선택도 잘한거 같아요 ~ </p>
+                    </div>    
+
+                    
+
+                </div>
+
+                <div id="con_2">
+
+                    <div class="rv"><a href="#"><img src="img/rv_3.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 알톤 알시티 엔도24 유압식 하이브리드</p>
+                        <p class="rvt_2">택배가 주말에 도착할줄 알았는데 월요일 퇴근후<br/> 
+                            귀가 하니 도착해 있네요. MTB 랑 팻바이크를 타...</p>
+                    </div> 
+
+                    <div class="rv"><a href="#"><img src="img/rv_4.png" alt="rv1"></a>
+                        <p class="rvt_1">2022 벨로라인 클라우드 하이브리드</p>
+                        <p class="rvt_2">아들이 두발 자전거 시작해서 같이 탈려고<br/>
+                            구매 했는데, 이쁘고 가볍네요! 하이브리드..</p>
+                    </div>
+                    
+                </div>
+
+                     
+
+                <div id="con_3">
+
+                    <div class="rv"><a href="#"><img src="img/rv_5.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 퀄리 Q맥스 리미티드 퍼포먼스 전기자전거</p>
+                        <p class="rvt_2">출퇴근 목적으로 구매 했습니다. 왕복 10KM 거리<br/>
+                            인데 출근 할 때에는 PAS 기능으로 경쾌한 페달링...  </p>
+                    </div>
+
+                    <div class="rv"><a href="#"><img src="img/rv_6.png" alt="rv1"></a>
+                        <p class="rvt_1">모토벨로 TX8 프로3 500W 20인치 전기자전거</p>
+                        <p class="rvt_2">친절한분들께 설명 잘듣고 구매했습니다 생각한<br/>
+                            것보다도 등판력이 좋아서 등판력고민을 왜했나...</p>
+                    </div> 
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section_4mb">
+            <div id="container_3">
+                <div id="title">포토리뷰</div>
+
+                <div id="con_1">
+
+                    <div class="rv" id="rv_1"><a href="#"><img src="img/rv_1.png" alt="rv1"></a>
+                        <p class="rvt_1">바이큰 하이브리드T 21단 로드자전거</p>
+                        <p class="rvt_2">색이 너무 예쁘네요! 받아서 뜯자마자 색깔보고ㅠ<br/>
+                        입틀막 주행도 잘되고 가벼워요 자전거 탈일이..</p>
+                     </div>
+
+                    <div class="rv" id="rv_2"><a href="#"><img src="img/rv_2.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 퀄리 볼트B 500W 전기자전거</p>
+                        <p class="rvt_2">자전거 안장이 불편해서 고른디자인 입니다. 승차감도<br/> 
+                             좋고 디자인도 넘이쁘고 색상선택도 잘한거 같아요 ~ </p>
+                    </div>   
+                    
+                    <div class="rv" id="rv_3"><a href="#"><img src="img/rv_3.png" alt="rv1"></a>
+                        <p class="rvt_1">2023 알톤 알시티 엔도24 유압식 하이브리드</p>
+                        <p class="rvt_2">택배가 주말에 도착할줄 알았는데 월요일 퇴근후<br/> 
+                            귀가 하니 도착해 있네요. MTB 랑 팻바이크를 타...</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section_4 end -->
+
+        <section id="section_5">
+
+            <div id="container_4">
+                <div id="title">온라인 서포트</div>
+                <div id="con_box">
+                    <a href="#">
+                        <div class="con" id="con_1">
+                            <div id="text">
+                                <p class="ol_1">NOTICE</p>
+                                <p class="ol_2">회사 휴업 및 배송 안내를 알려드림니다.</p>
+                            </div>
+                        </div>
+
+                        <div class="con" id="con_2">
+                            <div id="text">
+                                <p class="ol_1">Q&A</p>
+                                <p class="ol_2">주문 변경 , 주문취소 , 기타문의 를 도와드림니다.</p>
+                            </div>    
+                        </div>
+
+                        <div class="con" id="con_3">
+                            <div id="text">
+                                <p class="ol_1">FAQ</p>
+                                <p class="ol_2">고객님들께서 가장 많이 문의해주시는 글입니다.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>    
+            </div>
+
+        </section>
+
+        <!-- section_5 end -->
+
+        <footer>
+            <div id="sns">
+                <a href="#"><img src="img/face.png" alt="face"></a>
+                <a href="#"><img src="img/ins_w.png" alt="face"></a>
+            </div>
+            <div id="f_1">
+                <p id="ft_1" class="ftt">(주)바이크셀링 대표이사 : 김진기,장범호 사업자등록번호 : 144-81-11219</p>
+                <p id="ft_2" class="ftt">주소:경기도 수원시 권선구 경수대로 353 1층</p>
+                <p id="ft_3" class="ftt">대표전화 : 031-768-4482 팩스 : 031-255-4480 E-MAIL: bikeselling@naver.com </p>
+                <p id="ft_4" class="ftt">COPYRIGHT © 2013 BY BIKESELLING.CO.KR ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
+
+        <!-- footer end -->
+    </div>
+
+</body>
+</html>
